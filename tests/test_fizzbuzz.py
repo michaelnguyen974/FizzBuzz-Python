@@ -10,3 +10,6 @@ def test_buzz():
 
 def test_fizzbuzz():
     assert(fizzbuzz.fizzbuzz(15)) == "fizzbuzz"
+
+def test_return_num(): 
+  assert(fizzbuzz.fizzbuzz(1)) == 1
