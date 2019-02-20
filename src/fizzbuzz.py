@@ -1,5 +1,5 @@
 def fizzbuzz(num): 
     if num == 3:
         return "fizz"
-    else: 
+    elif num == 5: 
         return "buzz"
