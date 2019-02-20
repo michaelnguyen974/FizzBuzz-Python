@@ -16,3 +16,6 @@ def test_return_num():
 
 def test_fizzbuzz_returns_fizz_if_input_multiple_of_3():
     assert fizzbuzz.fizzbuzz(6) == 'fizz'
+
+def test_fizzbuzz_returns_buzz_if_input_multiple_of_5():
+    assert fizzbuzz.fizzbuzz(10) == 'buzz'
