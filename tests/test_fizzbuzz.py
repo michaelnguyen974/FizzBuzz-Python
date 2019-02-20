@@ -7,3 +7,6 @@ def test_fizz():
 
 def test_buzz(): 
   assert(fizzbuzz.fizzbuzz(5)) == "buzz"
+
+def test_fizzbuzz():
+  assert(fizzbuzz.fizzbuzz(15)) == "fizzbuzz"
