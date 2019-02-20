@@ -13,3 +13,6 @@ def test_fizzbuzz():
 
 def test_return_num(): 
   assert(fizzbuzz.fizzbuzz(1)) == 1
+
+def test_fizzbuzz_returns_fizz_if_input_multiple_of_3():
+    assert fizzbuzz.fizzbuzz(6) == 'fizz'
